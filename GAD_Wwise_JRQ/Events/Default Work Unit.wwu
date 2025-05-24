@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{71CDD09D-8D9E-48F2-AD20-104941E5E340}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{71CDD09D-8D9E-48F2-AD20-104941E5E340}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_OBJ_Campfire_Burn" ID="{214BFFEF-A980-44F5-86BA-9D9CF9575F81}">
+					<ChildrenList>
+						<Action Name="" ID="{96699B57-7329-4263-9404-4C799A8AF4F2}" ShortID="198367811">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OBJ_Campfire_Burn" ID="{6E5B3B38-586E-4E3F-92DC-8423A680DF86}" WorkUnitID="{3D9B14B0-3128-4D11-A02B-EE5B347CA82E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_2D_EXT_GEN" ID="{1E0D39C4-5428-42C4-892A-94CFF7AD5C6D}">
+					<ChildrenList>
+						<Action Name="" ID="{171A50F7-730A-4698-8C94-0671EE5745F4}" ShortID="746135279">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_2D_EXT_GEN" ID="{EFBF82B8-F6E1-49BD-9E2C-EAE0DE5E03BF}" WorkUnitID="{3193A1D1-AA5B-460D-9DD5-58EE79DA2567}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Foley_FS_Run" ID="{2788F2FB-89BB-49FF-9312-DFE6AE1DCF82}">
+					<ChildrenList>
+						<Action Name="" ID="{1FB86A99-63C3-482F-8E38-E41A11AD9A4D}" ShortID="486156942">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Foley_FS_Run" ID="{99F3E454-813D-4178-BE12-52F1D64626C1}" WorkUnitID="{A06628B3-35C8-4784-BA16-AF87B14441EA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
